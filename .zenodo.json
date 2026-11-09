@@ -1,0 +1,17 @@
+{
+  "title": "ND Combined Drought Index: scripts for an experimental Landsat-based Combined Drought Index for North Dakota, 2000-2023",
+  "upload_type": "software",
+  "description": "Google Earth Engine and Python scripts for the corrected Combined Drought Index (CDI) for North Dakota, the derivation of its normalization limits and principal-component weights, the benchmark against the U.S. Drought Monitor, NOAA nClimDiv PDSI and SPI-3 and detrended crop yields, the county benchmark, the variance decomposition, and the figures of the accompanying article.",
+  "creators": [
+    {"name": "Mbuh, Mbongowo", "affiliation": "University of North Dakota"},
+    {"name": "Caparo, Anai", "affiliation": "University of North Dakota"},
+    {"name": "Alu, Ossai", "affiliation": "University of North Dakota"}
+  ],
+  "license": "MIT",
+  "keywords": ["combined drought index", "agricultural drought", "water balance", "vegetation health index", "moisture stress index", "U.S. Drought Monitor", "Landsat", "Google Earth Engine", "North Dakota"],
+  "related_identifiers": [
+    {"identifier": "10.65372/k588jq80", "relation": "isSupplementTo", "resource_type": "publication-article", "scheme": "doi"}
+  ],
+  "grants": [],
+  "notes": "Supported by the U.S. Geological Survey under Grant/Cooperative Agreement No. G23AP00683 (AmericaView)."
+}

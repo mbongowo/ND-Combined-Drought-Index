@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "ND Combined Drought Index"
+type: software
+license: MIT
+repository-code: "https://github.com/mbongowo/ND-Combined-Drought-Index"
+authors:
+  - family-names: Mbuh
+    given-names: Mbongowo
+    affiliation: University of North Dakota
+  - family-names: Caparo
+    given-names: Anai
+    affiliation: University of North Dakota
+  - family-names: Alu
+    given-names: Ossai
+    affiliation: University of North Dakota
+preferred-citation:
+  type: article
+  title: "Mapping Drought Patterns in North Dakota, USA, with an Experimental Landsat-Based Combined Drought Index: An Evaluation of Fourteen Years Between 2000 and 2023"
+  authors:
+    - family-names: Mbuh
+      given-names: Mbongowo
+    - family-names: Caparo
+      given-names: Anai
+    - family-names: Alu
+      given-names: Ossai
+  journal: "Journal of Earth Observation and Geospatial Applications"
+  volume: 2
+  issue: 2
+  start: 112
+  end: 153
+  year: 2026
+  doi: "10.65372/k588jq80"
