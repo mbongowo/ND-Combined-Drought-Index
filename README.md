@@ -1,6 +1,12 @@
-Supplementary code
-Mbuh, Caparo and Alu. Mapping drought patterns in North Dakota, USA, with an experimental
-Landsat-based Combined Drought Index: an evaluation of fourteen years between 2000 and 2023.
+ND Combined Drought Index
+=========================
+
+Code for:
+
+Mbuh, M., Caparo, A., & Alu, O. (2026). Mapping Drought Patterns in North Dakota, USA, with an
+Experimental Landsat-Based Combined Drought Index: An Evaluation of Fourteen Years Between 2000
+and 2023. Journal of Earth Observation and Geospatial Applications, 2(2), 112-153.
+https://doi.org/10.65372/k588jq80
 
 Combined Drought Index (Section 2.3.6)
   CDI_corrected.js           Google Earth Engine (Code Editor) script for the corrected CDI.
@@ -36,3 +42,21 @@ Requirements: Python 3 with earthengine-api, numpy, pandas, scipy, rasterio, geo
 matplotlib; an Earth Engine account. Reference data are public (see the Data Availability
 Statement): U.S. Drought Monitor, NOAA NCEI nClimDiv, USDA NASS Quick Stats, U.S. Census
 Bureau cartographic boundaries.
+
+Data
+  data/annual_reference_series.csv   Annual June-August reference series for the fourteen analyzed
+                                     years: USDM DSCI and D0-D2 area, nClimDiv PDSI, SPI-3,
+                                     precipitation and temperature, and detrended state yield
+                                     anomalies (%) of nine crops. Pass it as VALIDATION_CSV to
+                                     run_corrected_pipeline.sh; the CDI columns are added from the
+                                     rasters written by cdi_corrected_run.py.
+
+  The Earth Engine scripts read the North Dakota boundary and the NDVI/LST limit images from
+  projects/ee-geodrought/assets/. Other users can replace them with their own copies of the
+  state boundary (U.S. Census cartographic boundary) and the limit images.
+
+Citation
+  Please cite the article above if you use this code.
+
+License
+  MIT (see LICENSE).
